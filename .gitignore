@@ -1,0 +1,33 @@
+# FastAPI / Python core
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments (Do NOT commit your dependencies/runtime)
+.venv/
+venv/
+ENV/
+env/
+
+# Configuration and Secrets (CRITICAL: Never commit credentials)
+.env
+*.env
+.env.*
+!.env.example
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Databases (If using SQLite locally)
+*.sqlite3
+*.db
